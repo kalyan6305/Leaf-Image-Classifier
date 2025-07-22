@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Move all images to Unknown class folder",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"Get-ChildItem -Path 'leaf_dataset/Leaves' -File | Where-Object { $_.Extension -match 'jpg|jpeg|png' } | ForEach-Object { Move-Item $_.FullName 'leaf_dataset/Leaves/Unknown/' }"
+			],
+			"problemMatcher": [],
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}
