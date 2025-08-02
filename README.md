@@ -1,7 +1,3 @@
-Here's a complete **GitHub project description** (for your `README.md` or GitHub repo "About" section) for:
-
----
-
 ## 🌿 Leaf Image Classifier using Deep Learning
 
 This project is a deep learning–based web application that classifies **30 different tree species** using **leaf images**. It uses a Convolutional Neural Network (CNN) model built with TensorFlow and provides detailed tree specifications upon prediction.
@@ -73,6 +69,4 @@ Examples:
 
 This project is licensed under the [MIT License](LICENSE).
 
----
 
-Let me know if you want this in `README.md` format or auto-pushed to your repo.
