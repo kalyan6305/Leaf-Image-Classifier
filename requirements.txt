@@ -1,6 +1,6 @@
-sklearn.model_selection
-os
-cv2
-json
-sklearn.model_selection
-tensorflow
+streamlit==1.30.0
+tensorflow==2.13.0
+opencv-python-headless==4.9.0.80
+numpy==1.24.4
+scikit-learn==1.3.0
+pillow==10.2.0
